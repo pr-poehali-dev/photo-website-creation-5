@@ -106,8 +106,8 @@ const Index = () => {
 
         <div className="pt-8 border-t border-gray-200">
           <div className="flex items-center justify-between">
-            <span className="text-gray-700 text-2xl">общая оценка</span>
-            <span className="text-green-500 text-6xl font-bold font-['Montserrat']">{totalScore}</span>
+            <span className="text-gray-700 text-4xl">общая оценка</span>
+            <span className="text-green-500 text-8xl font-['Montserrat']">{totalScore}</span>
           </div>
         </div>
       </div>
