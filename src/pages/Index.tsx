@@ -36,7 +36,7 @@ const Index = () => {
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-gray-700 text-xl">дизайнерство</span>
-              <span className="text-purple-600 text-3xl font-semibold">{design}</span>
+              <span className="text-purple-600 text-3xl font-semibold font-['Montserrat']">{design}</span>
             </div>
             <Slider 
               value={[design]} 
@@ -50,7 +50,7 @@ const Index = () => {
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-gray-700 text-xl">бит</span>
-              <span className="text-purple-600 text-3xl font-semibold">{beat}</span>
+              <span className="text-purple-600 text-3xl font-semibold font-['Montserrat']">{beat}</span>
             </div>
             <Slider 
               value={[beat]} 
@@ -64,7 +64,7 @@ const Index = () => {
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-gray-700 text-xl">вокал</span>
-              <span className="text-purple-600 text-3xl font-semibold">{vocal}</span>
+              <span className="text-purple-600 text-3xl font-semibold font-['Montserrat']">{vocal}</span>
             </div>
             <Slider 
               value={[vocal]} 
@@ -78,7 +78,7 @@ const Index = () => {
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-gray-700 text-xl">реализация</span>
-              <span className="text-purple-600 text-3xl font-semibold">{realization}</span>
+              <span className="text-purple-600 text-3xl font-semibold font-['Montserrat']">{realization}</span>
             </div>
             <Slider 
               value={[realization]} 
@@ -92,7 +92,7 @@ const Index = () => {
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-gray-700 text-xl">мясо</span>
-              <span className="text-purple-600 text-3xl font-semibold">{meat}</span>
+              <span className="text-purple-600 text-3xl font-semibold font-['Montserrat']">{meat}</span>
             </div>
             <Slider 
               value={[meat]} 
@@ -107,7 +107,7 @@ const Index = () => {
         <div className="pt-8 border-t border-gray-200">
           <div className="flex items-center justify-between">
             <span className="text-gray-700 text-2xl">общая оценка</span>
-            <span className="text-green-500 text-6xl font-bold">{totalScore}</span>
+            <span className="text-green-500 text-6xl font-bold font-['Montserrat']">{totalScore}</span>
           </div>
         </div>
       </div>
